@@ -35,8 +35,12 @@ jobs:
     - name: Test with pytest
       run: |
         pytest test_login_page.py -v -n 2  --html=reports/new_test_report.html --junitxml=reports/new_test_report.xml
-    - name: Upload a Build Artifact
+    - name: Zip report
+      uses: montudor/action-zip@v1.0.0
+      with:
+        args: zip -qq -r reports.zip reports
+    - name: Upload test report zip file
       uses: actions/upload-artifact@v2.2.4
       with:
-        name: new_test_report.xml
-        path: reports/new_test_report.xml
+        name: reports.zip
+        path: reports.zip
