@@ -25,7 +25,7 @@ class TestLoginPage:
         login_page.get_input_username().send_keys(Login_UserName_Failed)
         login_page.get_input_password().send_keys(Login_Password_Failed)
         login_page.get_button_login().click()
-        assert Login_Failed_Message +' failed' == login_page.get_login_failed_message()
+        assert Login_Failed_Message == login_page.get_login_failed_message()
 
     def test_login(self):
         login_page.get_input_username().send_keys(Login_UserName)
