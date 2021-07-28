@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import pytest
 from datetime import datetime
@@ -7,6 +8,8 @@ from selenium.webdriver.chrome.options import Options
 
 test_path = os.path.dirname(__file__)
 test_report_path = test_path + '/reports'
+sys.path.append(test_path)
+sys.path.append(test_report_path)
 chrome_path = test_path + '/chromedriver'
 
 @pytest.fixture(autouse=True)
