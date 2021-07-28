@@ -3,11 +3,11 @@ import yaml
 import sys
 import os
 
-test_resource_path = os.path.dirname(__file__).replace('Scripts', 'Resources')
+test_resource_path = os.path.dirname(__file__)
 sys.path.append(test_resource_path)
 
-data = json.load(open(test_resource_path +"\\TestData.json", 'r', encoding='utf-8'))
-yaml_data = yaml.load(open(test_resource_path +"\\TestData.yaml", 'r', encoding='utf-8'), Loader=yaml.FullLoader)
+data = json.load(open(test_resource_path +"/TestData.json", 'r', encoding='utf-8'))
+yaml_data = yaml.load(open(test_resource_path +"/TestData.yaml", 'r', encoding='utf-8'), Loader=yaml.FullLoader)
 
 Login_Title = data['LoginPage']['Login_Title']
 Login_Failed_Message = data['LoginPage']['Login_Failed_Message']

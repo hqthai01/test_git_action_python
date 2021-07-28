@@ -33,7 +33,7 @@ def pytest_runtest_makereport(item, call):
     report = outcome.get_result()
     extra = getattr(report, 'extra', [])
     if report.when == 'call' and report.outcome == 'failed':
-        path = test_report_path + '\\' + str(item).removeprefix('<Function ').removesuffix('>') + '_' +timestamp+'.png'
+        path = test_report_path + '/' + str(item).removeprefix('<Function ').removesuffix('>') + '_' +timestamp+'.png'
         time.sleep(3)
         driver.save_screenshot(path)
         extra.append(pytest_html.extras.image(path))
