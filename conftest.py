@@ -6,8 +6,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 test_path = os.path.dirname(__file__)
-test_report_path = test_path + '\\reports'
-chrome_path = test_path + '\chromedriver'
+test_report_path = test_path + '/reports'
+chrome_path = test_path + '/chromedriver'
 
 @pytest.fixture(autouse=True)
 def chrome_driver():
