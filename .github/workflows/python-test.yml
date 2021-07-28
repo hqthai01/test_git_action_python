@@ -35,3 +35,8 @@ jobs:
     - name: Test with pytest
       run: |
         pytest test_login_page.py -v -n 2  --html=reports/new_test_report.html --junitxml=reports/new_test_report.xml
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.4
+      with:
+        name: new_test_report.xml
+        path: reports/new_test_report.xml
