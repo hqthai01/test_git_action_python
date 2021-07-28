@@ -1,0 +1,71 @@
+LoginPage:
+  Login_UserName: nvqlq1
+  Login_Password: 123qwE
+  Login_UserName_Failed: nvqlq1
+  Login_Password_Failed: 123qwE1
+  Login_Failed_Message: Tên đăng nhâp hoặc mật khẩu không chính xác
+  Login_Title: S2Retail
+
+MSHP_Page:
+  MSHP_Title: S2Retail
+  MSHP_Menu_QLSP: Quản Lý Sản Phẩm
+  MSHP_Menu_QLSP_SP: Sản Phẩm
+  MSHP_Menu_QLSP_NCC: Nhà Cung Cấp
+  MSHP_Menu_QLSP_KM: Khuyến Mãi
+  MSHP_Menu_QLSP_HH: Hoa Hồng
+  MSHP_Menu_QLSP_TTK: Thông Tin Kho
+  MSHP_Menu_QLSP_DGCCH: Định Giá Cho Cửa Hàng
+  MSHP_Menu_QLSP_KKK: Kiểm Kê Kho
+
+  # MSHP_Menu_QLKH = '//*[@id="mMenu"]/li[2]/a/span'
+  # MSHP_Menu_QLKH_KH = '//*[@id="mMenu"]/li[2]/ul/li[1]/a/span'
+  # MSHP_Menu_QLKH_NKH = '//*[@id="mMenu"]/li[2]/ul/li[2]/a/span'
+  # MSHP_Menu_QLKH_TKPT = '//*[@id="mMenu"]/li[2]/ul/li[3]/a/span'
+  # MSHP_Menu_QLKH_NTK = '//*[@id="mMenu"]/li[2]/ul/li[4]/a/span'
+  # MSHP_Menu_QLKH_GHMH = '//*[@id="mMenu"]/li[2]/ul/li[5]/a/span'
+  # MSHP_Menu_QLMH = '//*[@id="mMenu"]/li[3]/a/span'
+  # MSHP_Menu_QLMH_MH = '//*[@id="mMenu"]/li[3]/ul/li[1]/a/span'
+  # MSHP_Menu_QLMH_TH = '//*[@id="mMenu"]/li[3]/ul/li[2]/a/span'
+  # MSHP_Menu_QLMH_XK = '//*[@id="mMenu"]/li[3]/ul/li[3]/a/span'
+  # MSHP_Menu_QLMH_NK = '//*[@id="mMenu"]/li[3]/ul/li[4]/a/span'
+  # MSHP_Menu_QLMH_LSMH = '//*[@id="mMenu"]/li[3]/ul/li[5]/a/span'
+  # MSHP_Menu_QLMH_LSXK = '//*[@id="mMenu"]/li[3]/ul/li[6]/a/span'
+  # MSHP_Menu_QLMH_LSNK = '//*[@id="mMenu"]/li[3]/ul/li[7]/a/span'
+  # MSHP_Menu_QLMH_KP = '//*[@id="mMenu"]/li[3]/ul/li[8]/a/span'
+  # MSHP_Menu_QLTC = '//*[@id="mMenu"]/li[4]/a/span'
+  # MSHP_Menu_QLTC_HDMH = '//*[@id="mMenu"]/li[4]/ul/li[1]/a/span'
+  # MSHP_Menu_QLTC_CNNCC = '//*[@id="mMenu"]/li[4]/ul/li[2]/a/span'
+  # MSHP_Menu_QLTC_TCTM = '//*[@id="mMenu"]/li[4]/ul/li[3]/a/span'
+  # MSHP_Menu_QLTC_LT = '//*[@id="mMenu"]/li[4]/ul/li[4]/a/span'
+  # MSHP_Menu_QLTC_NT = '//*[@id="mMenu"]/li[4]/ul/li[5]/a/span'
+  # MSHP_Menu_QLCH = '//*[@id="mMenu"]/li[5]/a/span'
+  # MSHP_Menu_QLCH_CH = '//*[@id="mMenu"]/li[5]/ul/li[1]/a/span'
+  # MSHP_Menu_QLCH_NCH = '//*[@id="mMenu"]/li[5]/ul/li[2]/a/span'
+  # MSHP_Menu_QLCH_KH = '//*[@id="mMenu"]/li[5]/ul/li[3]/a/span'
+  # MSHP_Menu_QLBH = '//*[@id="mMenu"]/li[6]/a/span'
+  # MSHP_Menu_QLBH_BG = '//*[@id="mMenu"]/li[6]/ul/li[1]/a/span'
+  # MSHP_Menu_QLBH_DDH = '//*[@id="mMenu"]/li[6]/ul/li[2]/a/span'
+  # MSHP_Menu_QLBH_BH = '//*[@id="mMenu"]/li[6]/ul/li[3]/a/span'
+
+  # MSHP_Menu_QT = '//*[@id="mMenu"]/li[7]/a/span'
+  # MSHP_Menu_QT_DDBH = '//*[@id="mMenu"]/li[7]/ul/li[1]/a/span'
+  # MSHP_Menu_QT_NV = '//*[@id="mMenu"]/li[7]/ul/li[2]/a/span'
+  # MSHP_Menu_QT_SHDCT = '//*[@id="mMenu"]/li[7]/ul/li[3]/a/span'
+  # MSHP_Menu_QT_GPSD = '//*[@id="mMenu"]/li[7]/ul/li[4]/a/span'
+  # MSHP_Menu_QT_NK = '//*[@id="mMenu"]/li[7]/ul/li[5]/a/span'
+
+  # MSHP_Menu_DM = '//*[@id="mMenu"]/li[8]/a/span'
+  # MSHP_Menu_DM_DVT = '//*[@id="mMenu"]/li[8]/ul/li[1]/a/span'
+  # MSHP_Menu_DM_TL = '//*[@id="mMenu"]/li[8]/ul/li[2]/a/span'
+  # MSHP_Menu_DM_GH = '//*[@id="mMenu"]/li[8]/ul/li[3]/a/span'
+  # MSHP_Menu_DM_LD = '//*[@id="mMenu"]/li[8]/ul/li[4]/a/span'
+
+  # MSHP_Menu_BC = '//*[@id="mMenu"]/li[9]/a/span'
+  # MSHP_Menu_BC_BCBG = '//*[@id="mMenu"]/li[9]/ul/li[1]/a/span'
+  # MSHP_Menu_BC_MHDH = '//*[@id="mMenu"]/li[9]/ul/li[2]/a/span'
+  # MSHP_Menu_BC_DTBH = '//*[@id="mMenu"]/li[9]/ul/li[3]/a/span'
+  # MSHP_Menu_BC_XNT = '//*[@id="mMenu"]/li[9]/ul/li[4]/a/span'
+
+  # MSHP_Menu_CHHT = '//*[@id="mMenu"]/li[10]/a/span'
+
+  # MSHP_Menu_CHWS = '//*[@id="mMenu"]/li[11]/a/span'

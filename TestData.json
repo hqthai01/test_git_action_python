@@ -1,0 +1,10 @@
+{
+    "LoginPage": {
+        "Login_UserName": "nvqlq1",
+        "Login_Password": "123qwE",
+        "Login_UserName_Failed": "nvqlq12",
+        "Login_Password_Failed": "123qwE2",
+        "Login_Failed_Message": "Tên đăng nhâp hoặc mật khẩu không chính xác",
+        "Login_Title": "S2Retail"
+    }
+}

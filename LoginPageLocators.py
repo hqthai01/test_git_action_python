@@ -1,0 +1,5 @@
+Login_Url = 'https://tungpc.s2retail.online/'
+Login_UserName = '//*[@id="usernameOrEmailAddress"]'
+Login_Password = '//*[@id="Password"]'
+Login_Button = '//*[@id="LoginButton"]'
+Login_Failed_Message = '//*[@id="listError"]/span'
